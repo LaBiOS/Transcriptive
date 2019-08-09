@@ -1,0 +1,34 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+## UPLOAD DATA
+
+- name: sra_tools
+  owner: iuc
+  tool_panel_section_id: 'getdb'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fetch_fasta_from_ncbi
+  owner: artbio
+  tool_panel_section_id: 'getdb'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+#####################
+#####################
+#####################
+
+########### BLAST
+
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_id: 'blast'
+  
+#####################
+#####################
+#####################
