@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/200312426.svg)](https://zenodo.org/badge/latestdoi/200312426)
+
+
 # Transcriptive
 
 Transcriptive is a bioinformatics analysis pipeline used for RNA sequencing data. The workflow processes raw data from FastQ inputs, aligns the reads, generates gene and transcript counts,  and performs extensive quality-control on the results. 
