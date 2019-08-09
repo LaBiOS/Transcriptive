@@ -1,0 +1,59 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+######### FASTA TOOLS
+- name: fasta_compute_length
+  owner: devteam
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: seq_filter_by_id
+  owner: peterjc
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: seq_rename
+  owner: peterjc
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: seq_select_by_id
+  owner: peterjc
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: get_orfs_or_cdss
+  owner: peterjc
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fasta_formatter
+  owner: devteam
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fasta_to_tabular
+  owner: devteam
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: tabular_to_fasta
+  owner: devteam
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: find_subsequences
+  owner: bgruening
+  tool_panel_section_id: 'fasta_tools'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
