@@ -12,10 +12,6 @@ tools:
 - name: bowtie2
   owner: devteam
   tool_panel_section_id: 'mapping'
-  
-- name: data_manager_bowtie2_index_builder
-  owner: devteam
-  tool_panel_section_id: 'mapping'
 
 ######## TUXEDO SUITE
 
@@ -28,17 +24,6 @@ tools:
   tool_panel_section_id: 'tuxedo'
 
 - name: suite_cufflinks_2_2_1
-  owner: devteam
-  tool_panel_section_id: 'tuxedo'
-
-######## TUXEDO SUITE
-
-- name: cummerbund
-  owner: dave
-  tool_panel_section_id: 'tuxedo'
-  tool_shed_url: https://testtoolshed.g2.bx.psu.edu/
-
-- name: cummerbund_to_tabular
   owner: devteam
   tool_panel_section_id: 'tuxedo'
 
