@@ -1,0 +1,41 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+###### Infernal Suite
+- name: infernal
+  owner: bgruening
+  tool_panel_section_id: 'infernal'
+
+#####################
+#####################
+#####################
+
+###### Annotation
+
+- name: augustus
+  owner: bgruening
+  tool_panel_section_id: 'annot'
+  
+- name: busco
+  owner: iuc
+  tool_panel_section_id: 'annot'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu/
+
+#####################
+#####################
+#####################
+
+############# LNCRNA
+- name: feelnc
+  owner: iuc
+  tool_panel_section_id: 'lncrna'
+
+#####################
+#####################
+#####################
