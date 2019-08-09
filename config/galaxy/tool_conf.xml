@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<toolbox>
+
+<!-- UPLOAD DATA -->
+
+<label id="label_upload" text="DATA SOURCE" />
+
+<section id="getext" name="Get Upload Data">
+    <tool file="data_source/upload.xml" />
+</section>
+
+<label id="label_db" text="BIOLOGICAL DATABASE" />
+
+<section id="getdb" name="Get Upload DB">
+</section>
+<section id="tools" name="Tools">
+</section>
+    
+<label id="label_ngs" text="NEXT-GEN SEQUENCING" />
+    
+<section id="qc" name="NGS: QC and manipulation">
+</section>
+<section id="rna_assembly" name="NGS: RNA Assembly">
+</section>
+<section id="dna_assembly" name="NGS: DNA Assembly">
+</section>
+<section id="mapping" name="NGS: Mapping">
+</section>
+<section id="tuxedo" name="NGS: Tuxedo Suite">
+</section>
+<section id="rnaseq" name="NGS: RNA-Seq Analysis">
+</section>
+<section id="fusion" name="NGS: Fusion Analysis">
+</section>
+<section id="splice" name="NGS: Splicing Analysis">
+</section>
+<section id="methylation" name="NGS: Methylation Analysis">
+</section>
+<section id="chipseq" name="NGS: ChIP-Seq Analysis">
+</section>
+<section id="radseq" name="NGS: RAD-Seq Analysis">
+</section>
+<section id="srna" name="NGS: Small RNAs">
+</section>
+<section id="circrna" name="NGS: circRNAs">
+</section>
+<section id="lncrna" name="NGS: lncRNAs">
+</section>
+<section id="annot" name="NGS: Annotation">
+</section>
+<section id="rlang" name="NGS: R Packages">
+</section>
+<section id="infernal" name="NGS: Infernal Suite">
+</section>
+<section id="samtools" name="NGS: SAMtools">
+</section>
+<section id="bamtools" name="NGS: BAMtools">
+</section>
+<section id="bedtools" name="NGS: BEDtools">
+</section>
+<section id="bctools" name="NGS: BCtools">
+</section>
+<section id="deeptools" name="NGS: Deep Tools">
+</section>
+<section id="picard" name="NGS: Picard">
+</section>
+<section id="emboss" name="NGS: EMBOSS">
+</section>
+<section id="gatk" name="NGS: GATK Tools">
+</section>
+<section id="vcftools" name="NGS: VCFtools">
+</section>
+<section id="variant" name="NGS: SNP Calling">
+</section>
+
+<label id="label_ss" text="SIMILARITY SEARCH" />
+    
+<section id="blast" name="BLAST">
+</section>
+<section id="similarity" name="Alignment Tools">
+</section> 
+<section id="taxon" name="Phylogeny Tools">
+</section>
+    
+<label id="label_plant" text="PLANT ANALYSES TOOLS" />    
+<section id="plant_srna" name="Plant: Small RNA">
+</section>
+<section id="plant_tribes" name="Plant: PlantTribes Suite">
+</section>
+<section id="plant_prims" name="Plant: PRIMS Suite">
+</section>
+<section id="plant_virus" name="Plant: Virus Detection">
+</section>
+
+<label id="label_seqs" text="SEQUENCES TOOLS" />
+<section id="fasta_tools" name="FASTA Tools">
+</section>
+<section id="fastq" name="FASTQ Tools">
+</section>    
+    
+<!-- COMMON TOOLS -->
+
+<label id="label_common" text="COMMON TOOLS" />
+<section id="textutil" name="Text Manipulation">
+    <tool file="filters/fixedValueColumn.xml" />
+    <tool file="filters/catWrapper.xml" />
+    <tool file="filters/cutWrapper.xml" />
+    <tool file="filters/mergeCols.xml" />
+    <tool file="filters/convert_characters.xml" />
+    <tool file="filters/CreateInterval.xml" />
+    <tool file="filters/cutWrapper.xml" />
+    <tool file="filters/changeCase.xml" />
+    <tool file="filters/pasteWrapper.xml" />
+    <tool file="filters/remove_beginning.xml" />
+    <tool file="filters/randomlines.xml" />
+    <tool file="filters/headWrapper.xml" />
+    <tool file="filters/tailWrapper.xml" />
+    <tool file="filters/trimmer.xml" />
+    <tool file="filters/wc_gnu.xml" />
+    <tool file="filters/secure_hash_message_digest.xml" />
+</section>
+<section id="filter" name="Filter and Sort">
+    <tool file="stats/filtering.xml" />
+    <tool file="filters/sorter.xml" />
+    <tool file="filters/grep.xml" />
+</section>
+<section id="group" name="Join, Subtract and Group">
+    <tool file="filters/joiner.xml" />
+    <tool file="filters/compare.xml" />
+    <tool file="stats/grouping.xml" />
+</section>
+<section id="stats" name="Statistics">
+    <tool file="stats/gsummary.xml" />
+    <tool file="filters/uniq.xml" />
+    </section>
+<section id="plots" name="Graph/Display Data">
+    <tool file="plotting/bar_chart.xml" />
+    <tool file="plotting/boxplot.xml" />
+</section>    
+    
+</toolbox>
