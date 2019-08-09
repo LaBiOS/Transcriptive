@@ -11,7 +11,6 @@ The pipeline was built using Docker, allowing it to run across multiple computin
 
 ------------
 
----
 
 ## Galaxy Docker Image
 
