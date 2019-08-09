@@ -1,0 +1,126 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+########### SAMTOOLS
+- name: data_manager_sam_fasta_index_builder
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: bam_to_sam
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: sam_to_bam
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_bedcov
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_calmd
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_flagstat
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_idxstats
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_mpileup
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_reheader
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_rmdup
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_slice_bam
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_sort
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_split
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+- name: samtools_stats
+  owner: devteam
+  tool_panel_section_id: 'samtools'
+
+#####################
+#####################
+#####################
+
+########### BEDTOOLS
+- name: bedtools
+  owner: iuc
+  tool_panel_section_id: 'bedtools'
+
+#####################
+#####################
+#####################
+
+########### BAMTOOLS
+- name: bamtools
+  owner: devteam
+  tool_panel_section_id: 'bamtools'
+
+#####################
+#####################
+#####################
+
+############# VCFTOOLS
+- name: all_vcftools
+  owner: devteam
+  tool_panel_section_id: 'vcftools'
+
+#####################
+#####################
+#####################
+
+############## PICARD
+- name: picard
+  owner: devteam
+  tool_panel_section_id: 'picard'
+  
+- name: data_manager_picard_index_builder
+  owner: devteam
+
+#####################
+#####################
+#####################
+
+############## EMBOSS
+- name: emboss_5
+  owner: devteam
+  tool_panel_section_id: 'emboss'
+
+#####################
+#####################
+#####################
+
+############## Bctools
+- name: suite_bctools
+  owner: iuc
+  tool_panel_section_id: 'bctools'
+
+#####################
+#####################
+#####################
