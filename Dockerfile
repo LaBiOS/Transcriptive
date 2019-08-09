@@ -28,12 +28,6 @@ ADD config/tools/tools_7.yaml $GALAXY_ROOT/tools_7.yaml
 ADD config/tools/tools_8.yaml $GALAXY_ROOT/tools_8.yaml
 
 RUN df -h \
-    && install-tools $GALAXY_ROOT/tools.yaml \
-    && /tool_deps/_conda/bin/conda clean --tarballs --yes > /dev/null \
-    && rm /export/galaxy-central/ -rf \
-    && df -h
-
-RUN df -h \
     && install-tools $GALAXY_ROOT/tools_0.yaml \
     && /tool_deps/_conda/bin/conda clean --tarballs --yes > /dev/null \
     && rm /export/galaxy-central/ -rf \
