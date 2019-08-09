@@ -1,0 +1,70 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+########### FASTQ TOOLS
+
+- name: fastq_filter
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: fastq_paired_end_joiner
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: fastq_manipulation
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: fastq_paired_end_deinterlacer
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: fastq_paired_end_interlacer
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: fastq_paired_end_splitter
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fastq_quality_boxplot
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  
+- name: fastq_stats
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fastq_trimmer
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fastq_trimmer_by_quality
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fastq_to_tabular
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+
+- name: fastq_groomer
+  owner: devteam
+  tool_panel_section_id: 'fastq'
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
