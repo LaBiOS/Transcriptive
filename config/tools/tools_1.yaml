@@ -1,0 +1,87 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+############# MAPPING
+
+- name: bowtie2
+  owner: devteam
+  tool_panel_section_id: 'mapping'
+  
+- name: data_manager_bowtie2_index_builder
+  owner: devteam
+  tool_panel_section_id: 'mapping'
+
+######## TUXEDO SUITE
+
+- name: tophat2
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+ 
+- name: tophat_stats_pe
+  owner: jjohnson
+  tool_panel_section_id: 'tuxedo'
+
+- name: suite_cufflinks_2_2_1
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+
+######## TUXEDO SUITE
+
+- name: cummerbund
+  owner: dave
+  tool_panel_section_id: 'tuxedo'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu/
+
+- name: cummerbund_to_tabular
+  owner: devteam
+  tool_panel_section_id: 'tuxedo'
+
+#####################
+#####################
+#####################
+
+######### RNA ASSEMBLY
+- name: suite_trinity
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: trinotate
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+- name: transdecoder
+  owner: iuc
+  tool_panel_section_id: 'rna_assembly'
+  
+#####################
+#####################
+#####################
+
+############# RNA-SEQ
+
+- name: hisat2
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: data_manager_hisat2_index_builder
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+ 
+- name: stringtie
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  
+- name: rcorrector
+  owner: iuc
+  tool_panel_section_id: 'rnaseq'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu/
+ 
+#####################
+#####################
+#####################
