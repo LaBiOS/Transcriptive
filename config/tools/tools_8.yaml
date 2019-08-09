@@ -1,0 +1,60 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+- name: data_manager_all_fasta_path
+  owner: brenninc
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_diamond_database_builder
+  owner: bgruening
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_busco
+  owner: iuc
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_gene_annotation
+  owner: scottx611x
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_genome_dbkeys_all_fasta
+  owner: devteam
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_gff
+  owner: ieguinoa
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_ncbi_taxonomy
+  owner: devteam
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_refseq
+  owner: iuc
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_fetch_tx2gene
+  owner: ieguinoa
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_for_directory_data
+  owner: brenninc
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_gatk_picard_index_builder
+  owner: devteam
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_rsync_g2
+  owner: devteam
+  tool_panel_section_id: 'tools'
+  
+- name: data_manager_sam_fasta_index_builder
+  owner: devteam
+  tool_panel_section_id: 'tools'
