@@ -17,16 +17,15 @@ ADD config/galaxy/dependency_resolvers_conf.xml $GALAXY_ROOT/config/
 #  - Docker will use 2*(size of the layer) on the disk while building, so 1 yaml should not install more data than half of the remaining space on the disk
 #     => 'big' tools should go in the first yaml file, the last yaml file should contain smaller tools
 #  - When one of the layer can't be built with a "no space left" error message, you'll probably need to split a yaml in 2 (supposing you followed the previous rules)
-ADD config/tools/triffid.yaml $GALAXY_ROOT/tools.yaml
-ADD config/tools/triffid_0.yaml $GALAXY_ROOT/tools_0.yaml
-ADD config/tools/triffid_1.yaml $GALAXY_ROOT/tools_1.yaml
-ADD config/tools/triffid_2.yaml $GALAXY_ROOT/tools_2.yaml
-ADD config/tools/triffid_3.yaml $GALAXY_ROOT/tools_3.yaml
-ADD config/tools/triffid_4.yaml $GALAXY_ROOT/tools_4.yaml
-ADD config/tools/triffid_5.yaml $GALAXY_ROOT/tools_5.yaml
-ADD config/tools/triffid_6.yaml $GALAXY_ROOT/tools_6.yaml
-ADD config/tools/triffid_7.yaml $GALAXY_ROOT/tools_7.yaml
-ADD config/tools/triffid_8.yaml $GALAXY_ROOT/tools_8.yaml
+ADD config/tools/tools_0.yaml $GALAXY_ROOT/tools_0.yaml
+ADD config/tools/tools_1.yaml $GALAXY_ROOT/tools_1.yaml
+ADD config/tools/tools_2.yaml $GALAXY_ROOT/tools_2.yaml
+ADD config/tools/tools_3.yaml $GALAXY_ROOT/tools_3.yaml
+ADD config/tools/tools_4.yaml $GALAXY_ROOT/tools_4.yaml
+ADD config/tools/tools_5.yaml $GALAXY_ROOT/tools_5.yaml
+ADD config/tools/tools_6.yaml $GALAXY_ROOT/tools_6.yaml
+ADD config/tools/tools_7.yaml $GALAXY_ROOT/tools_7.yaml
+ADD config/tools/tools_8.yaml $GALAXY_ROOT/tools_8.yaml
 
 RUN df -h \
     && install-tools $GALAXY_ROOT/tools.yaml \
