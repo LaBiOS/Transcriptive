@@ -1,0 +1,30 @@
+# This is just a sample file. For a fully documented version of this file, see
+# https://github.com/galaxyproject/ansible-galaxy-tools/blob/master/files/tool_list.yaml.sample
+api_key: admin
+galaxy_instance: http://localhost:8080
+install_repository_dependencies: True
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+
+- name: package_python_2_7
+  owner: iuc
+  tool_panel_section_id: 'tools'
+  
+- name: package_python_2_7_10
+  owner: iuc
+  tool_panel_section_id: 'tools'
+  
+- name: package_bzlib_1_0
+  owner: rsajulga
+  tool_panel_section_id: 'tools'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu/
+  
+- name: package_freetype_2_5_2
+  owner: iuc
+  tool_panel_section_id: 'tools'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu/
+  
+- name: package_python_2_7_pyvcf_0_6_8dev
+  owner: ulfschaefer
+  tool_panel_section_id: 'tools'
